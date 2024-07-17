@@ -28,7 +28,9 @@ const Update = ({ setVisible, editedName, setEditedName, editedTitle, editedDesc
       draggable: true,
       theme: "light",
     });
-    setVisible(false);
+    setTimeout(()=>{
+      setVisible(false);
+    },1000)
   }
 
   return (

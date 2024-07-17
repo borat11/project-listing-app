@@ -39,7 +39,7 @@ const TaskView = () => {
     setEditedName(task.name)
     setEditedTitle(task.title)
     setEditedDescription(task.description)
-    setEditedId(task.id)
+    setEditedId(task.id) 
     
   
   }
